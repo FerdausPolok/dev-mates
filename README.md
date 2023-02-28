@@ -1,5 +1,4 @@
 # django-mate
-quick loop up &lt;/>
 # ✨ hacktoberfest2022 💫
 
 ![banner](https://hacktoberfest.com/_next/static/media/opengraph.da6e44c0.png)
