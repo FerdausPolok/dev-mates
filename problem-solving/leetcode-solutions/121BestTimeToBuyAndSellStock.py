@@ -17,3 +17,4 @@ class Solution:
             sale+= 1
                 
         return max_profit   
+
