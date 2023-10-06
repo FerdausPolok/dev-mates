@@ -1,31 +1,32 @@
-# django-mate
-# ✨ hacktoberfest2022 💫
+# dev-mates
+# ✨ hacktoberfest10-2023 💫
 
-![banner](https://hacktoberfest.com/_next/static/media/opengraph.da6e44c0.png)
+![banner](https://github.com/FerdausPolok/dev-mates/assets/68804751/850772fe-43f2-4472-91c2-96933ce93d7f)
 
-## 🌱 Contributing to hacktoberfest 2022
 
-### Hacktoberfest 2022: Complete your mission for open source 👨🏻‍💻
+## 🌱 Contributing to hacktoberfest 2023
+
+### Hacktoberfest 2023: Complete your mission for open source 👨🏻‍💻
 <p>Hacktoberfest: a month-long celebration of open-source projects, their maintainers, and the entire community of contributors.
 
-## Hacktoberfest 2022: Complete your mission for open source
+## Hacktoberfest 2023: Complete your mission for open source
 
-https://www.digitalocean.com/blog/hacktoberfest-2022-your-mission-for-open-source</p>
+https://www.digitalocean.com/blog/ten-years-hacktoberfest</p>
 
 -----
 
 ### What can You contribute ⚠️ 
-In our dev life, we have some code snippets that we frequently use. The goal of this repo is to store that code snippets so that one can quickly come here and use them to safe time.
-* Find the existing domain/programming language/framework or craete one if not exist.
+In our dev life, we have some code snippets that we frequently use. The goal of this repo is to store code snippets so that one can quickly come here and use them to save time.
+* Find the existing domain/programming language/framework or create one if not exist.
 * Add your code snippet(s)
 -----
 
-### Process are as follows :- 
-* Login using github @ [Hacktoberfest](https://hacktoberfest.com/)
+### Processes are as follows:- 
+* Login using GitHub @ [Hacktoberfest](https://hacktoberfest.com/)
 * Create four valid pull requests (PRs) between 1st - 31st October
 
 ------
-### How to Contribute to this repository
+### How to Contribute to this Repository
 
 * Fork the repository (Click the Fork button in the top right of this page, click your Profile Image)
 * Clone the forked repository to your local machine.
@@ -41,7 +42,7 @@ cd django-mate
 ```markdown
 git checkout -b new-branch-name
 ```
-* Make change in the repository with the new branch.
+* Make changes in the repository with the new branch.
 ```markdown
 git add -A
 git commit -m "Your commit Message"
@@ -56,7 +57,7 @@ git push -u origin HEAD
 ### NOTE
 
 * Make Sure you commit your changes in a new branch.
-* Make Sure you Give proper name to your files describing the addition.
-* Also Make Sure you comment your code whereever necessary
+* Make Sure you Give the proper name to your files describing the addition.
+* Also Make Sure you comment on your code wherever necessary
    
 <!--       END OF README           END OF README         END OF README         END OF README          END OF README           END OF README           END OF README      -->
