@@ -1,7 +1,7 @@
 # dev-mates
 # ✨ hacktoberfest10-2023 💫
 
-![banner](https://github.com/FerdausPolok/dev-mates/assets/68804751/850772fe-43f2-4472-91c2-96933ce93d7f)
+![banner](https://github.com/FerdausPolok/dev-mates/assets/68804751/38fb9e4f-820b-4643-b2d3-747d3ac3126e)
 
 
 ## 🌱 Contributing to hacktoberfest 2023
