@@ -1,7 +1,15 @@
-#import Tkinter
 import tkinter as tk
 
-#instruction window code
+# Function to show an error message window
+def show_error_window(message):
+    error_window = tk.Toplevel(root)
+    error_window.title("Error")
+    error_label = tk.Label(error_window, text=message)
+    error_label.pack(padx=20, pady=20)
+    close_button = tk.Button(error_window, text="Close", command=error_window.destroy)
+    close_button.pack(pady=10)
+
+# Function to open the instruction window
 def open_instruction_window():
     instruction_window = tk.Toplevel(root)
     instruction_window.title("Instructions")
@@ -15,13 +23,16 @@ def open_instruction_window():
     close_button = tk.Button(instruction_window, text="Close", command=instruction_window.destroy)
     close_button.pack(pady=10)
 
-#add tasks
+# Function to add tasks
 def add_task():
-    task = entry.get()
+    task = entry.get().strip()  # Remove leading/trailing whitespace
     if task:
         listbox.insert(tk.END, task)
         entry.delete(0, tk.END)
-#function to toggle the check-mark
+    else:
+        show_error_window("Task cannot be empty.")
+
+# Function to toggle the check-mark
 def toggle_task(event):
     selected_task_index = listbox.nearest(event.y)
     if selected_task_index >= 0:
