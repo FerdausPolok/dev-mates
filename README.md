@@ -3,6 +3,7 @@
 
 ![banner](https://github.com/FerdausPolok/dev-mates/assets/68804751/38fb9e4f-820b-4643-b2d3-747d3ac3126e)
 
+View Event Details 👉 [here](https://hacktoberfest.com/)
 
 ## 🌱 Contributing to hacktoberfest 2023
 
