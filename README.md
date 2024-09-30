@@ -23,7 +23,7 @@ In our dev life, we have some code snippets that we frequently use. The goal of 
 
 ---
 
-### How to Contribute into this [repo](https://github.com/FerdausPolok/dev-mates)
+### 🛠 How to Contribute into this repo ❓
 
 - Fork the repository (Click the Fork button in the top right of this page, click your Profile Image)
 - Clone the forked repository to your local machine.
@@ -62,13 +62,13 @@ git push -u origin HEAD
 
 ---
 
-### Hacktoberfest Official Guidelines
+### Hacktoberfest Official Guidelines 👨‍💼
 
 - Login using GitHub @ [Hacktoberfest](https://hacktoberfest.com/).
 - Create 4 valid pull requests (PRs) between 1st - 31st October to any repo that has `hacktoberfest` tag, like this one.
 - Add the maintainer as reviewer so that they can review-approve and eventually merge your PR.
 
-### NOTE
+### NOTE 📓
 
 - Make Sure you commit your changes in a new branch.
 - Make Sure you Give the proper name to your files/ folders describing the addition.
