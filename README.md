@@ -4,15 +4,13 @@
 
 ![banner](https://hacktoberfest.com/_next/static/media/opengraph.9dc60c9d.png)
 
-## 🌱 Contributing to Hacktoberfest 2024 🌱
+## 🌱 Contributing to Hacktoberfest 2024 👨🏻‍💻
 
-### Complete your mission for open source 👨🏻‍💻
+Join the month-long celebration of open-source, maintainers, and contributors! This is a great chance to start your open-source journey. 🚀
 
-<p>A month-long celebration of open-source projects, their maintainers, and the entire community of contributors. Great way to kickstart your open-source contribution journey. 🚀
-
-- View Official Event Details ▶ [from here](https://hacktoberfest.com/)
-- See how you can Participate Official Doc ▶ [from here](https://hacktoberfest.com/participation/#contributors)
-- Read Digital ocean Official writeup for 2024 ▶ [from here](https://www.digitalocean.com/blog/hacktoberfest-2024)
+- [Official Event Details](https://hacktoberfest.com/)
+- [How to Participate](https://hacktoberfest.com/participation/#contributors)
+- [2024 DigitalOcean Blog Post](https://www.digitalocean.com/blog/hacktoberfest-2024)
 
 ---
 
@@ -25,15 +23,7 @@ In our dev life, we have some code snippets that we frequently use. The goal of 
 
 ---
 
-### General processes are as follows:-
-
-- Login using GitHub @ [Hacktoberfest](https://hacktoberfest.com/).
-- Create 4 valid pull requests (PRs) between 1st - 31st October to any repo that has `hacktoberfest` tag, like this one.
-- Add the maintainer as reviewer so that they can review-approve and eventually merge your PR.
-
----
-
-### Steps to Contribute to this Repository
+### How to Contribute into this [repo](https://github.com/FerdausPolok/dev-mates)
 
 - Fork the repository (Click the Fork button in the top right of this page, click your Profile Image)
 - Clone the forked repository to your local machine.
@@ -54,7 +44,7 @@ cd dev-mates
 git checkout -b 2024-new-branch-name
 ```
 
-- Make changes in the repository with the new branch. Add/Create your code snippet to the specific folder as described in what you can contribute section.
+- Create or update code snippet in the relevant folder(s). And then commit them.
 
 ```markdown
 git add -A
@@ -67,8 +57,16 @@ git commit -m "Your commit Message"
 git push -u origin HEAD
 ```
 
-- Make a pull request form [here](https://github.com/FerdausPolok/dev-mates/compare).
+- Make a pull request form [this link](https://github.com/FerdausPolok/dev-mates/compare).
 - Star the repository.
+
+---
+
+### Hacktoberfest Official Guidelines
+
+- Login using GitHub @ [Hacktoberfest](https://hacktoberfest.com/).
+- Create 4 valid pull requests (PRs) between 1st - 31st October to any repo that has `hacktoberfest` tag, like this one.
+- Add the maintainer as reviewer so that they can review-approve and eventually merge your PR.
 
 ### NOTE
 
