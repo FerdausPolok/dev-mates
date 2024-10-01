@@ -24,15 +24,30 @@ This application requires Python and the tkinter library.
 
 1. Clone this repository to your local machine:
 
-```git clone https://github.com/yourusername/todo-list-app.git```
+`git clone https://github.com/yourusername/todo-list-app.git`
 
 2. Navigate to the project directory:
 
-```cd todo-list-app```
+`cd todo-list-app`
 
 3. Run the application:
 
-```python todo_list.py```
+`python todo_list.py`
 
-##Author
-[Aarya Nale](https://github.com/AaryaNale)
+# Author Information
+
+## Original Contribution
+
+- **Author:** [Aarya Nale](https://github.com/AaryaNale)
+- **Original Pull Request:** [PR #15](https://github.com/FerdausPolok/dev-mates/pull/15)
+
+## Code Evolution
+
+The original code has undergone significant changes:
+
+1. The initial contribution was merged via the pull request mentioned above.
+2. Subsequently, the repository's maintainer refactored the code as part of a larger reorganization of the folder structure.
+
+## Note to Contributors/ users
+
+When working with this codebase, please be aware that the current structure and implementation may differ from the original contribution. Always refer to the most recent documentation and codebase for accurate information. Thanks.
