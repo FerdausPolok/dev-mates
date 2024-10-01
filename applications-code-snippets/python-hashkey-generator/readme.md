@@ -1,12 +1,12 @@
 ## About Admission System Models
 
-Todo from @mubtasimfuad Bhai!
+Todo from @[Mubtasim Fuad](https://github.com/mubtasimfuad) Bhai!
 
 # Author Information
 
 ## Original Contribution
 
-- **Author:** @PollenLight
+- **Author:** @[Mubtasim Fuad](https://github.com/mubtasimfuad)
 - **Original Pull Request:** [PR #2](https://github.com/FerdausPolok/dev-mates/pull/2)
 
 ## Code Evolution

@@ -1,12 +1,12 @@
 ## About Admission System Models
 
-Todo from @PollenLight Bhai!
+Todo from @[PollenLight](https://github.com/PollenLight) Bhai!
 
 # Author Information
 
 ## Original Contribution
 
-- **Author:** @PollenLight
+- **Author:** @[PollenLight](https://github.com/PollenLight)
 - **Original Pull Request:** [PR #3](https://github.com/FerdausPolok/dev-mates/pull/3)
 
 ## Code Evolution

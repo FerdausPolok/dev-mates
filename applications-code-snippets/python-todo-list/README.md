@@ -39,7 +39,7 @@ This application requires Python and the tkinter library.
 ## Original Contribution
 
 - **Author:** [Aarya Nale](https://github.com/AaryaNale)
-- **Original Pull Request:** [PR #2](https://github.com/FerdausPolok/dev-mates/pull/2)
+- **Original Pull Request:** [PR #15](https://github.com/FerdausPolok/dev-mates/pull/15)
 
 ## Code Evolution
 
