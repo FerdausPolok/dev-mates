@@ -1,34 +1,22 @@
-//initialize
-let ids = new Set()
+// It's more like database
 
-//adding data
+const resultMap = new Map()
 
-ids.add(1)
-ids.add(1) //wont send error there there will be only 1 set
-ids.add("test")
-ids.add(4)
-ids.add(5)
+//set
+resultMap.set('average', 1.53)
+resultMap.set('lastResult', null)
 
-console.log(ids) //{1, 'test', 4, 5}
+const germany = { name: 'Germany', population: 82 }
 
-// delete data
-ids.delete(4)
+resultMap.set(germany, 0.89)
 
-console.log(ids) //{1, 'test', 5}
+//get
+console.log(resultMap.get("average")) //1.53
 
-// Iterate through array
-// only of works since index are not always same
-for (let value of ids) {
-    console.log(value) //"Polok" "zaman" "ferdaus"
+//delete
+resultMap.delete(germany)
+
+// iteration of is possible
+for (let item of resultMap) {
+    console.log(item) // items as individual array
 }
-
-//finding any unique value on the set, true or false
-console.log(ids.has(5)) //true
-console.log(ids.has(100)) //false 
-
-
-//convert array into set
-let myArray = ["polok", 1, 2, 1, "zaman", "polok"]
-let mySet = new Set(myArray)
-
-console.log(mySet) //{'polok', 1, 2, 'zaman'}
