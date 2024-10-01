@@ -1,6 +1,6 @@
 ## About Admission System Models
 
-Todo from @[PollenLight](https://github.com/PollenLight) Bhai!
+Todo from @[PollenLight](https://github.com/PollenLight) Bhai if he's available 😛
 
 # Author Information
 

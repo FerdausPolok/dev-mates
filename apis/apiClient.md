@@ -1,13 +1,15 @@
-## About Admission System Models
+## About ApiClint
 
-Todo from @[Mubtasim Fuad](https://github.com/mubtasimfuad) if he's available 😛
+Todo from [Tanvir Imam Mitul
+](https://github.com/tanvirim) if he's available 😛
 
 # Author Information
 
 ## Original Contribution
 
-- **Author:** @[Mubtasim Fuad](https://github.com/mubtasimfuad)
-- **Original Pull Request:** [PR #2](https://github.com/FerdausPolok/dev-mates/pull/2)
+- **Author:** [Tanvir Imam Mitul
+  ](https://github.com/tanvirim)
+- **Original Pull Request:** [PR #17](https://github.com/FerdausPolok/dev-mates/pull/17)
 
 ## Code Evolution
 
