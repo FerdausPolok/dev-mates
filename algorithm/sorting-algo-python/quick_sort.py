@@ -10,11 +10,9 @@ def quick_sort(arr):
 
 
 
+
 # Driver code to test above
     arr = [3, 6, 8, 10, 1, 2, 1]
     print("Original array:", arr)
     sorted_arr = quick_sort(arr)
     print("Sorted array:", sorted_arr)
-
-
-

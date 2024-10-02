@@ -22,11 +22,9 @@ def bucket_sort(arr):
 
     return sorted_array
 
+
 # Example usage
     arr = [0.897, 0.565, 0.656, 0.1234, 0.665, 0.3434]
     print("Original array:", arr)
     sorted_arr = bucket_sort(arr)
     print("Sorted array:", sorted_arr)
-
-
-

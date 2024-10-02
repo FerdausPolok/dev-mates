@@ -25,10 +25,8 @@ def heap_sort(arr):
 
 
 
+
 # Driver code to test above
     arr = [12, 11, 13, 5, 6, 7]
     heap_sort(arr)
     print("Sorted array is:", arr)
-
-
-
