@@ -11,6 +11,8 @@ def quickSort(list):
         # Recursively sorting left and right lists
         return quickSort(left_list) + middle_list + quickSort(right_list)
 
+# Driver Code
 list = [10, 2, 7, 3, 5, 8, 1, 5, 74, 2, 2, 7, 2, 8, 52, 6, 74, 2]
 print("Unsorted list:", list)
 print(quickSort(list))
+
