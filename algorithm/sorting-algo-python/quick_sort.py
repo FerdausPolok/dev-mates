@@ -1,22 +1,18 @@
-# Quick Sort is a divide-and-conquer algorithm that picks a pivot and partitions the array around it.
+def quick_sort(arr):
+    if len(arr) <= 1:
+        return arr
+    pivot = arr[len(arr) // 2]
+    left = [x for x in arr if x < pivot]
+    middle = [x for x in arr if x == pivot]
+    right = [x for x in arr if x > pivot]
+    return quick_sort(left) + middle + quick_sort(right)
 
-def partition(arr, low, high):
-    pivot = arr[high]
-    i = low - 1
-    for j in range(low, high):
-        if arr[j] < pivot:
-            i += 1
-            arr[i], arr[j] = arr[j], arr[i]  # Swap
-    arr[i + 1], arr[high] = arr[high], arr[i + 1]  # Swap with pivot
-    return i + 1
 
-def quick_sort(arr, low, high):
-    if low < high:
-        pi = partition(arr, low, high)
-        quick_sort(arr, low, pi - 1)
-        quick_sort(arr, pi + 1, high)
 
-# Example
-arr = [10, 7, 8, 9, 1, 5]
-quick_sort(arr, 0, len(arr) - 1)
-print("Quick Sorted array:", arr)
+
+
+# Driver code to test above
+    arr = [3, 6, 8, 10, 1, 2, 1]
+    print("Original array:", arr)
+    sorted_arr = quick_sort(arr)
+    print("Sorted array:", sorted_arr)
