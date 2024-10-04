@@ -20,6 +20,7 @@ A browser extension designed to help users manage their YouTube time by setting 
 1. **Clone the repository**
 
 2. **Add the extension to your browser**:
+
    - Open your browser’s extension page:
      - **For Chrome**: Go to `chrome://extensions/`
      - **For Edge**: Go to `edge://extensions/`
