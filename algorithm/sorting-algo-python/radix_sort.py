@@ -27,10 +27,7 @@ def radix_sort(arr):
         counting_sort(arr, exp)
         exp *= 10
 
-
-
-
 # Driver code to test above
-    arr = [170, 45, 75, 90, 802, 24, 2, 66]
-    radix_sort(arr)
-    print("Sorted array is:", arr)
+arr = [170, 45, 75, 90, 802, 24, 2, 66]
+radix_sort(arr)
+print("Sorted array is:", arr)

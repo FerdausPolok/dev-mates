@@ -23,10 +23,7 @@ def heap_sort(arr):
         arr[i], arr[0] = arr[0], arr[i]
         heapify(arr, i, 0)
 
-
-
-
 # Driver code to test above
-    arr = [12, 11, 13, 5, 6, 7]
-    heap_sort(arr)
-    print("Sorted array is:", arr)
+arr = [12, 11, 13, 5, 6, 7]
+heap_sort(arr)
+print("Sorted array is:", arr)
