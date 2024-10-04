@@ -11,9 +11,7 @@ def shell_sort(arr):
                 j -= gap
             arr[j] = temp
         gap //= 2
-
     return arr
-
 # Example
     sample_array = [12, 34, 54, 2, 3]
     print("Original array:", sample_array)
