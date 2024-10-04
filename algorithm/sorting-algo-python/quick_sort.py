@@ -1,18 +1,14 @@
-def quickSort(list):
-    #base case for recursive call
-    if len(list) <= 1:
-        return list
-    else:
-        pivot = list[len(list) // 2]  # choosing middle element as pivot
-        left_list = [x for x in list if x < pivot]   # all elements less than pivot
-        middle_list = [x for x in list if x == pivot]  # all elements equal to pivot
-        right_list = [x for x in list if x > pivot]  # all elements greater than pivot
+def quick_sort(arr):
+    if len(arr) <= 1:
+        return arr
+    pivot = arr[len(arr) // 2]
+    left = [x for x in arr if x < pivot]
+    middle = [x for x in arr if x == pivot]
+    right = [x for x in arr if x > pivot]
+    return quick_sort(left) + middle + quick_sort(right)
 
-        # Recursively sorting left and right lists
-        return quickSort(left_list) + middle_list + quickSort(right_list)
-
-# Driver Code
-list = [10, 2, 7, 3, 5, 8, 1, 5, 74, 2, 2, 7, 2, 8, 52, 6, 74, 2]
-print("Unsorted list:", list)
-print(quickSort(list))
-
+# Driver code to test above
+arr = [10, 2, 7, 3, 5, 8, 1, 5, 74, 2, 2, 7, 2, 8, 52, 6, 74, 2]
+print("Original array:", arr)
+sorted_arr = quick_sort(arr)
+print("Sorted array:", sorted_arr)
