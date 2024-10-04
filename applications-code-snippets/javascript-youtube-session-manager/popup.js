@@ -45,15 +45,10 @@ document.getElementById("start").addEventListener("click", () => {
   }
 
   chrome.storage.local.set({ timerMinutes: totalMinutes }, () => {
-    chrome.runtime.sendMessage({ action: "startTimer" });
-
-    // Get remaining time from the background script
-    chrome.runtime.sendMessage({ action: "getRemainingTime" }, (response) => {
-      if (response && response.remainingTime) {
-        const totalSeconds = Math.floor(response.remainingTime / 1000);
-        startCountdown(totalSeconds);
-      }
-    });
+    // Start the countdown immediately
+    const totalSeconds = totalMinutes * 60; // Convert minutes to seconds
+    startCountdown(totalSeconds); // Start the countdown immediately
+    chrome.runtime.sendMessage({ action: "startTimer" }); // Send message to background script
   });
 });
 

@@ -22,15 +22,15 @@ chrome.runtime.onMessage.addListener((message, sender, sendResponse) => {
           "minutes. Alarm set for",
           new Date(endTime).toLocaleTimeString()
         );
-      });
-    });
 
-    // Store the current tab ID as the YouTube tab ID
-    chrome.tabs.query({ active: true, currentWindow: true }, (tabs) => {
-      if (tabs.length > 0) {
-        chrome.storage.local.set({ youtubeTabId: tabs[0].id });
-        console.log("YouTube tab ID stored:", tabs[0].id);
-      }
+        // Store the current tab ID as the YouTube tab ID
+        chrome.tabs.query({ active: true, currentWindow: true }, (tabs) => {
+          if (tabs.length > 0) {
+            chrome.storage.local.set({ youtubeTabId: tabs[0].id });
+            console.log("YouTube tab ID stored:", tabs[0].id);
+          }
+        });
+      });
     });
   } else if (message.action === "getRemainingTime") {
     chrome.storage.local.get(["timerEndTime"], (data) => {
@@ -42,7 +42,6 @@ chrome.runtime.onMessage.addListener((message, sender, sendResponse) => {
 });
 
 chrome.alarms.onAlarm.addListener((alarm) => {
-  console.log("Alarm triggered:", alarm);
   if (alarm.name === "sessionAlarm") {
     chrome.storage.local.get(["youtubeTabId"], (data) => {
       console.log("Attempting to close tab with ID:", data.youtubeTabId);
@@ -54,28 +53,6 @@ chrome.alarms.onAlarm.addListener((alarm) => {
         });
       } else {
         console.log("No YouTube tab ID found");
-      }
-    });
-  }
-});
-
-chrome.runtime.onMessage.addListener((message, sender, sendResponse) => {
-  if (message.action === "startTimer") {
-    const { totalSeconds } = message;
-
-    // Clear any existing alarms
-    chrome.alarms.clearAll(() => {
-      // Set a new alarm
-      chrome.alarms.create("closeTab", { delayInMinutes: totalSeconds / 60 });
-    });
-  }
-});
-
-chrome.alarms.onAlarm.addListener((alarm) => {
-  if (alarm.name === "closeTab") {
-    chrome.tabs.query({ active: true, currentWindow: true }, (tabs) => {
-      if (tabs[0]) {
-        chrome.tabs.remove(tabs[0].id);
       }
     });
   }
