@@ -7,12 +7,8 @@ def quick_sort(arr):
     right = [x for x in arr if x > pivot]
     return quick_sort(left) + middle + quick_sort(right)
 
-
-
-
-
 # Driver code to test above
-    arr = [3, 6, 8, 10, 1, 2, 1]
-    print("Original array:", arr)
-    sorted_arr = quick_sort(arr)
-    print("Sorted array:", sorted_arr)
+arr = [3, 6, 8, 10, 1, 2, 1]
+print("Original array:", arr)
+sorted_arr = quick_sort(arr)
+print("Sorted array:", sorted_arr)

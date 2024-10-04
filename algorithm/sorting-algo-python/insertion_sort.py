@@ -10,8 +10,7 @@ def insertion_sort(arr):
             j -= 1
         arr[j + 1] = key
 
-
 # Driver code to test above
-    arr = [12, 11, 13, 5, 6]
-    insertion_sort(arr)
-    print("Sorted array is:", arr)
+arr = [12, 11, 13, 5, 6]
+insertion_sort(arr)
+print("Sorted array is:", arr)
