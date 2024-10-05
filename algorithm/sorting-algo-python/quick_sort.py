@@ -1,16 +1,18 @@
-def quickSort(list):
-    #base case for recursive call
-    if len(list) <= 1:
-        return list
+def quickSort(arr):
+    # base case for recursive call
+    if len(arr) <= 1:
+        return arr
     else:
-        pivot = list[len(list) // 2]  # choosing middle element as pivot
-        left_list = [x for x in list if x < pivot]   # all elements less than pivot
-        middle_list = [x for x in list if x == pivot]  # all elements equal to pivot
-        right_list = [x for x in list if x > pivot]  # all elements greater than pivot
+        pivot = arr[len(arr) // 2]  # choosing middle element as pivot
+        left_arr = [x for x in arr if x < pivot]  # all elements less than pivot
+        middle_arr = [x for x in arr if x == pivot]  # all elements equal to pivot
+        right_arr = [x for x in arr if x > pivot]  # all elements greater than pivot
 
-        # Recursively sorting left and right lists
-        return quickSort(left_list) + middle_list + quickSort(right_list)
+        # Recursively sorting left and right arrs
+        return quickSort(left_arr) + middle_arr + quickSort(right_arr)
 
-list = [10, 2, 7, 3, 5, 8, 1, 5, 74, 2, 2, 7, 2, 8, 52, 6, 74, 2]
-print("Unsorted list:", list)
-print(quickSort(list))
+
+input_string = input("Please enter the unsorted arr separated by spaces: ")
+arr1 = list(map(int, input_string.split()))
+print("Unsorted arr:", arr1)
+print("Sorted arr:", quickSort(arr1))
