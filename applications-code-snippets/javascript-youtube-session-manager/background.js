@@ -57,3 +57,14 @@ chrome.alarms.onAlarm.addListener((alarm) => {
     });
   }
 });
+
+chrome.runtime.onMessage.addListener((message, sender, sendResponse) => {
+  if (message.action === "resetTimer") {
+    chrome.alarms.clear("sessionAlarm"); // Clear the current timer
+    chrome.storage.local.set({
+      timerEndTime: 0,
+      youtubeTabId: null,
+    });
+    console.log("Timer reset.");
+  }
+});
