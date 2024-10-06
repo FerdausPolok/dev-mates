@@ -18,8 +18,8 @@ def ternary_search(arr, left, right, key):
     return -1
 
 # Example usage
-arr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
-key = 5
+arr = list(map(int, input("Enter the sorted array elements separated by spaces: ").split()))
+key = int(input("Enter the key to search for: "))
 result = ternary_search(arr, 0, len(arr) - 1, key)
 if result != -1:
         print(f"Element found at index {result}")
