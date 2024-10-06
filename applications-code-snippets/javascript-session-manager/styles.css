@@ -57,11 +57,17 @@ h1 {
   transition: background-color 0.3s;
 }
 
+.button:disabled {
+  cursor: not-allowed;
+  opacity: 0.5;
+}
+
 .button:hover {
   background-color: #005bb5;
 }
 
-.start-button {
+.start-button,
+.reset-button {
   background-color: #28a745;
   color: #fff;
   border: none;
@@ -72,6 +78,7 @@ h1 {
   transition: background-color 0.3s;
 }
 
-.start-button:hover {
+.start-button:hover,
+.reset-button:hover {
   background-color: #218838;
 }
