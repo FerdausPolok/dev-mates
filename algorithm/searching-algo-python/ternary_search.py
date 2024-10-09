@@ -22,9 +22,7 @@ def ternary_search(arr, left, right, key):
 arr = list(
     map(int, input("Enter the sorted array elements separated by spaces: ").split())
 )
-arr = list(
-    map(int, input("Enter the sorted array elements separated by spaces: ").split())
-)
+
 key = int(input("Enter the key to search for: "))
 
 result = ternary_search(arr, 0, len(arr) - 1, key)
@@ -33,3 +31,4 @@ if result != -1:
     print(f"Element found at index {result}")
 else:
     print("Element not found")
+
